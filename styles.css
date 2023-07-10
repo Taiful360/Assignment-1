@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body section */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* navbar section */
+
+.manus-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: 80px;
+    background-color: #D9EFF1;
+    align-items: center;
+}
+
+.menus li {
+    border-right: 2px solid gray;
+    padding-right: 12.5px;
+}
+
+.menus li:hover {
+    color: rgb(255, 81, 0);
+}
+
+.menus {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    width: 80px;
+}
+
+/* banner section */
