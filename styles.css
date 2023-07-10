@@ -50,3 +50,60 @@ body {
 }
 
 /* banner section */
+
+.banner-container {
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    position: relative;
+
+}
+
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 70px;
+
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.banner-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.shop-now {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    border: none;
+    margin-top: 20px;
+}
+
+.flower {
+    width: 435px;
+    height: 600px;
+}
+
+.banner-flower img {
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+
+
+/* Our Featured Flowers section */
+.featured-flowers-container {
+    height: 100vh;
+}
