@@ -27,6 +27,7 @@ body {
 
 .menus li:hover {
     color: rgb(255, 81, 0);
+    cursor: pointer;
 }
 
 .menus {
@@ -106,7 +107,7 @@ body {
 /* Our Featured Flowers section */
 .featured-flowers-container {
     height: 100vh;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .featured-container h3 {
@@ -129,7 +130,7 @@ body {
 .featured-flower {
     display: flex;
     gap: 25px;
-    margin-left: 240px;
+    margin-left: 170px;
     margin-right: 240px;
     position: relative;
 }
@@ -183,6 +184,74 @@ body {
 .flower-name {
     display: flex;
     justify-content: space-around;
-    margin-left: 240px;
+    text-align: center;
     padding-top: 10px;
+    margin-left: 200px;
+    margin-right: 100px;
 }
+
+/* Extra section */
+.extra-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: cover;
+    height: 320px;
+    background-color: #e0ced2;
+    margin: 128px 135px 128px 170px;
+    border-radius: 10px;
+
+}
+
+.service-1 {
+    text-align: center;
+}
+
+.service-1 img {
+    width: 50px;
+    height: 50px;
+}
+
+.service-1 p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.service-2 {
+    text-align: center;
+}
+
+.service-2 img {
+    width: 50px;
+    height: 50px;
+}
+
+.service-2 p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.service-3 {
+    text-align: center;
+}
+
+.service-3 img {
+    width: 50px;
+    height: 50px;
+}
+
+.service-3 p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+/* hot deal section */
