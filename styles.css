@@ -273,6 +273,10 @@ body {
     margin-top: 60px;
 }
 
+.deal-title span {
+    color: #E55473
+}
+
 .deal-title {
     color: #272727;
     font-size: 40px;
@@ -338,4 +342,136 @@ body {
 .instagram-img img {
     width: 242px;
     height: 296px;
+    margin-top: 30px;
+}
+
+.instagram-content p {
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+/* Get The Latest Deals */
+
+/* .latest-deal img {
+    width: 75%;
+    margin-left: 170px;
+
+
+
+} 
+
+ .latest-deal {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    background: url('pic.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.headding {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+ .input {
+    position: absolute;
+}
+
+.btn {
+    position: absolute;
+    color: #E55473;
+    border-radius: 10px;
+    border: none;
+} 
+
+.subscribe {
+    display: flex;
+    gap: 35px;
+    margin-top: 50px;
+}
+
+
+
+.subscribe button {
+    display: flex;
+    width: 150px;
+    height: 64px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background: #E55473;
+    border: none;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe input {
+    width: 400px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+} */
+
+.latest-deals {
+    background-image: url(pic.png);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px 170px;
+    padding: 100px;
+    border-radius: 8px;
+}
+
+.latest-deals h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-deals p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.email {
+    width: 500px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.subscribe {
+    width: 100px;
+    height: 45px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: white;
+    margin-top: 30px;
+
+}
+
+.email-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+/* footer section  */
+.footer-container {
+    width: 1922px;
+    height: 449px;
+    background-color: #111010;
+
 }
