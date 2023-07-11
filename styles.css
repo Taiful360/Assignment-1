@@ -307,3 +307,35 @@ body {
     height: 320px;
     margin-left: 25px;
 }
+
+/* instagram section */
+
+
+.instagram-content h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram-content p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.instagram-img {
+    display: flex;
+    margin-left: 170px;
+    margin-right: 170px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.instagram-img img {
+    width: 242px;
+    height: 296px;
+}
