@@ -123,8 +123,9 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .featured-flower {
@@ -353,70 +354,6 @@ body {
 
 /* Get The Latest Deals */
 
-/* .latest-deal img {
-    width: 75%;
-    margin-left: 170px;
-
-
-
-} 
-
- .latest-deal {
-    text-align: center;
-    align-items: center;
-    position: relative;
-    background: url('pic.png');
-    background-size: cover;
-    background-position: center;
-    color: white;
-}
-
-.headding {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-
- .input {
-    position: absolute;
-}
-
-.btn {
-    position: absolute;
-    color: #E55473;
-    border-radius: 10px;
-    border: none;
-} 
-
-.subscribe {
-    display: flex;
-    gap: 35px;
-    margin-top: 50px;
-}
-
-
-
-.subscribe button {
-    display: flex;
-    width: 150px;
-    height: 64px;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    background: #E55473;
-    border: none;
-    border-radius: 8px;
-    align-items: center;
-    justify-content: center;
-}
-
-.subscribe input {
-    width: 400px;
-    height: 64px;
-    border-radius: 8px;
-    border: none;
-} */
-
 .latest-deals {
     background-image: url(pic.png);
     text-align: center;
@@ -469,9 +406,43 @@ body {
 }
 
 /* footer section  */
+
 .footer-container {
-    width: 1922px;
     height: 449px;
     background-color: #111010;
+    text-align: center;
+    padding-top: 140px;
+}
 
+.footer-container h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-container h1 span {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.footer-para {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.footer-para-2 {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
