@@ -129,16 +129,16 @@ body {
 
 .featured-flower {
     display: flex;
-    gap: 25px;
+    gap: 30px;
     margin-left: 170px;
-    margin-right: 240px;
+    margin-right: 170px;
     position: relative;
 }
 
 
 .featured-img-1 {
-    width: 426px;
-    height: 500px;
+    width: 326px;
+    height: 400px;
     background-color: #F2DEE7;
     border-radius: 300px 300px 0px 0px;
     display: flex;
@@ -147,25 +147,28 @@ body {
 }
 
 .featured-img-1 img {
-    width: 370px;
-    height: 370px;
+    width: 270px;
+    height: 270px;
+    margin-left: 40px;
 }
 
 .featured-img-2 img {
-    width: 310px;
-    height: 428px;
+    width: 210px;
+    height: 328px;
+    margin-left: 40px;
 }
 
 .featured-img-3 img {
-    width: 314px;
-    height: 471px;
+    width: 214px;
+    height: 371px;
+    margin-left: 40px;
 }
 
 
 
 .featured-img-2 {
-    width: 426px;
-    height: 500px;
+    width: 326px;
+    height: 400px;
     background-color: #D9EFF1;
     border-radius: 300px 300px 0px 0px;
     display: flex;
@@ -173,8 +176,8 @@ body {
 }
 
 .featured-img-3 {
-    width: 426px;
-    height: 500px;
+    width: 326px;
+    height: 400px;
     background-color: #E3EBDB;
     border-radius: 300px 300px 0px 0px;
     display: flex;
@@ -186,11 +189,12 @@ body {
     justify-content: space-around;
     text-align: center;
     padding-top: 10px;
-    margin-left: 200px;
-    margin-right: 100px;
+    margin-left: 170px;
+    margin-right: 170px;
 }
 
 /* Extra section */
+
 .extra-section {
     display: flex;
     align-items: center;
@@ -198,7 +202,7 @@ body {
     width: cover;
     height: 320px;
     background-color: #e0ced2;
-    margin: 128px 135px 128px 170px;
+    margin: 128px 170px 128px 170px;
     border-radius: 10px;
 
 }
@@ -255,6 +259,7 @@ body {
 }
 
 /* hot deal section */
+
 .hot-deal {
     display: flex;
     justify-content: center;
